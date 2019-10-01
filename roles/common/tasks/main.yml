@@ -2,15 +2,15 @@
 
 - name: Install packages
   yum: 
-    name={{item}}
-    state=present
-  with_items: 
-  - wget
-  - vim
-  - sysstat
-  - bash-completion
-  - mailx
-  - lsof
-  - tcpdump
-  - strace
+    name: [ 
+      'wget',
+      'vim',
+      'sysstat',
+      'bash-completion',
+      'mailx',
+      'lsof',
+      'tcpdump',
+      'strace'
+    ]
+  state: present
 ...
