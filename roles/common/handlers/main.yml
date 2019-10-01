@@ -1,0 +1,2 @@
+- name: yum clean all
+  command: /bin/yum clean all
