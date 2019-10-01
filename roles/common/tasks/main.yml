@@ -12,5 +12,5 @@
       'tcpdump',
       'strace'
     ]
-  state: present
+    state: present
 ...
